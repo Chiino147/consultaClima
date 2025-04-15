@@ -1,0 +1,89 @@
+*{
+    background-color: rgb(116, 163, 163);
+}
+
+#formularioClima{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#inputCiudad{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#btnEnviar{
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgb(210, 199, 55);
+    color: black;
+    text-decoration: solid;
+    border-radius: 25px;
+}
+#btnEnviar:hover{
+    background-color: rgb(243, 233, 92);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-div{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+#conteiner-info{
+    display:none;
+    background-color: blue;
+    width:100vh;
+    flex-direction: column;
+    justify-content:center;
+}
+#conteiner-error{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-info-p{
+    background-color: white;
+    border: 1px, solid,black;
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 5px;
+}
+.conteiner-info-p span{
+    background-color: white;
+   
+}
+
+
+
+#conteiner-error h2{
+    display: flex;
+    color: red;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid rgb(144, 54, 54);
+    border-radius: 24px;
+    background-color: white;
+
+    
+}

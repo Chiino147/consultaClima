@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form id="formularioClima" action="">
+        <h1>Conoce el clima! 🌤️</h1>
+        <input name="inputCiudad" type="text" id="inputCiudad" autocomplete="on" placeholder="Ingrese la ciudad">
+        <button id="btnEnviar">Consultar!</button>
+    </form>
+    <div id="conteiner">
+        <section id="conteiner-info">
+            <div class="conteiner-div">
+                <p class="conteiner-info-p">Temperatura: <span id="conteinerTemp">0</span></p>
+                <p class="conteiner-info-p">Temperatura maxima: <span id="conteinerTempMax">0</span></p>
+                <p class="conteiner-info-p">Temperatura minima: <span id="conteinerTempMin">0</span></p>
+            </div>
+            <div class="conteiner-div">
+                <p class="conteiner-info-p">Humedad: <span  id="conteinerH">0</span></p>
+                <p class="conteiner-info-p">Velocidad del viento: <span id="conteinerW">0</span></p>
+
+            </div>
+        </section>
+        <section id="conteiner-error">
+            <h2>No se encontro la ciudad!</h2>
+        </section>
+    </div>
+    
+</body>
+    <script src="index.js"></script>
+</html> 
